@@ -1,0 +1,271 @@
+body {
+    margin:  0;
+}
+.container {
+    width:  1030px;
+    margin:  0 auto;
+}
+
+.logo {
+    width:  20%;
+}
+
+.logo img {
+        width: 22%;
+    padding-top: 10px;
+}
+
+.menu {
+    width:  80%;
+    float:  left;
+}
+
+.logo {
+    float:  left;
+}
+
+.menu ul {
+    padding:  0;
+    margin:  0;
+    list-style:  none;
+    float:  right;
+}
+
+.menu li {
+    display:  inline;
+}
+
+.menu a {
+    padding: 20px;
+    display:  inline-block;
+    text-decoration: none;
+    text transform:;
+    text-transform: uppercase;
+	transition: .3s;
+	color: #000;
+}
+
+.slider_section.page_banner img {
+    width:  100%;
+    height: 300px;
+}
+.slider_section img {
+    width: 100%;
+	height: 400px;
+}
+
+.section_title h1 {
+    text-align:  center;
+    text-transform: uppercase;
+    color: #080015;.single_course_item.right {
+    float:  right;
+}
+
+.single_course_item.mid {
+    margin-left: 5%;
+}
+
+.course_text {
+    padding:  20px;
+    text-align: center;
+}
+
+.course_text h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #031750;
+    margin-top: 0px;
+}
+
+.course_text a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #00adef;
+    padding: 15px 30px;
+    color:  #fff;
+    display:  inline-block;
+}
+
+.footer_section {
+    background: #2eafe8;
+    float:  left;
+    width:  100%;
+    margin-top: 50px;
+    text-align:  center;
+    color:  #fff;
+}
+
+a {}
+
+.footer_section a {
+    color: #0400ef;
+    text-decoration: none;
+}
+}
+
+.single_course_item {
+    width:  30%;
+    border: 1px solid #000;
+    box-shadow: 0 0 10px #000;
+    float:  left;
+	transition: .3s;
+	margin-bottom: 60px;
+}
+
+.single_course_item img {
+    width:  100%;
+    height: 200px;
+}.single_course_item.right {
+    float:  right;
+}
+
+.single_course_item.mid {
+    margin-left: 5%;
+}
+
+.course_text {
+    padding: 20px;
+    text-align:  center;
+}
+
+.course_text h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #000406;
+    margin-top: 0px;
+}
+
+.course_text a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f7f7f7;
+    background: #000000;
+    padding: 15px 30px;
+    margin-top:  20px;
+    display:  inline-block;
+	transition: .3s;
+}
+
+.footer_section {
+    background: #000;
+    float:  left;
+    width:  100%;
+    margin-top: 0px;
+    text-align:  center;
+    color: #fff;
+}
+
+.footer_section a {
+        color: #a0a0a0;
+    text-decoration: none;
+}.menu a:hover {
+    background: #000;
+    color:  #fff;
+}
+
+.course_text a:hover {
+    background: #404040;
+}
+
+.single_course_item:hover {color: #424242;border: 1px solid;box-shadow: 0 0 20px #000;}
+
+/========= Courses page ==========/
+
+.slider_section.page_banner img {
+    height: 250px;
+}
+
+.single_course_item.contact_form {
+    width: 57%;
+    padding: 39px;
+}
+
+.form_element input[type=text], input[type=email], textarea {
+    width: 96%;
+    padding: 10px;
+    margin-bottom: 11px;
+}
+
+.form_element textarea {
+    height: 79px;
+}
+
+.form_element input[type=submit] {
+    background: #000;
+    color:  #fff;
+    border:  none;
+    padding:  15px 30px;
+    transition:  .3s;
+    text-transform: uppercase;
+}
+
+.form_element input[type=submit]:hover {
+        background: #3c3c3c;
+}
+
+.message_text p {
+    font-size: 25px;
+    line-height: 35px;
+    text-align: justify;
+    color: #000;
+}
+
+.single_trainer_item {
+    width: 22%;
+    border: 1px solid #000000;
+    box-shadow: 0 0 10px #000000;
+    float:  left;
+    position:  relative;
+    text-align:  center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+	transition:  .3s;
+}
+
+.trainer_content img {
+    width:  50%;
+    border-radius:  50%;
+    border: 2px solid black;
+    box-shadow:  0 0 10px #fff;
+    position:  absolute;
+    left: 23%;
+    top: -62px;
+	transition:  .3s;
+}
+
+.trainer_content h3 {
+    margin-top: 69px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.trainer_content h3 span {
+    color: #4e4e4e;
+    font-size:  80%;
+    display:  block;
+    text-transform: none;
+    padding-top: 10px;
+}
+
+.trainer_section {
+    padding:  50px 0;
+}
+.single_trainer_item.right {
+    float:  right;
+}
+
+.single_trainer_item.mid {
+    margin-left: 3.7%;
+}
+
+.single_trainer_item:hover {
+    border-color: #000;
+    transition:  .3s;
+    box-shadow: 0 0 20px #000;
+}
+
+.trainer_content img:hover {
+    border-color:  #fff;
+    width:  55%;
+    left: 48px;
+}
